@@ -1,0 +1,125 @@
+/* NAVBAR */
+#text-color-1 {
+    color: white;
+}
+#text-color-2 {
+    color: rgb(171, 171, 171);
+}
+#text-color-3 {
+    color: forestgreen;
+}
+
+.background-color {
+    background-color: rgb(63, 77, 77);
+    font-weight: bold;
+}
+
+/* CARD */
+
+.imagen-bsas {
+    max-width: 100%;
+    margin: 0 auto;
+    /* min-width: 30rem; */
+    opacity: 0.5;
+}
+
+@media (max-width: 578px) {
+    .text-height {
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .text-height {
+        font-size: 10px;
+    }
+}
+
+
+/* ORADORES */
+
+.boton1 {
+    background-color: rgb(245, 206, 35);
+    border: none;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.boton2 {
+    background-color: rgb(48, 167, 167);
+    border: none;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.boton3 {
+    background-color: rgb(86, 97, 97);
+    border: none;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.boton4 {
+    background-color: crimson;
+    border: none;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+/* FECHA Y LUGAR */
+
+.img-mod {
+    max-width: 100%;
+    min-width: 30%;
+}
+
+.bg-color {
+    background-color: rgb(62, 68, 73);
+}
+
+/* FORM */
+
+.dotted{
+    border-bottom: 1px dashed black;
+    text-decoration: none; 
+  }
+
+/* FOOTER */
+
+.footer {
+    /* padding-left: 25px;
+    padding-right: 25px; */
+    background-color: rgb(3, 68, 98);
+}
+
+.text-footer{
+    margin: 40px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
